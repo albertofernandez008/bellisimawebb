@@ -66,8 +66,12 @@
   </script>
   <link rel="icon" href="img/logo.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="img/logo.jpg">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
   <style>
     :root {
       --color-primary: #c9a96e;
@@ -1019,7 +1023,7 @@
 
 <!-- HERO -->
 <section id="hero">
-  <img src="img/exterior.jpg" alt="Bellísima Estética Avanzada en Arganda del Rey" class="hero-bg" loading="eager">
+  <img src="img/exterior.jpg" alt="Bellísima Estética Avanzada en Arganda del Rey" class="hero-bg" loading="eager" fetchpriority="high">
   <div class="hero-overlay"></div>
   <div class="hero-inner">
     <span class="hero-tag">✦ Centro de Estética Avanzada · Arganda del Rey</span>
